@@ -235,6 +235,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 170792263}
+  - component: {fileID: 170792264}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -257,6 +258,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &170792264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170792262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a936a787cd97564dbee92088a230b73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sliderController: {fileID: 442600532}
+  slider: {fileID: 442600533}
+  progress: 1000
+  basicProgress: 1
+  timertime: 10
 --- !u!1 &442600530
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,10 +329,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ValueText: {fileID: 639247944}
-  progress: 1000
-  basicProgress: 10
   slider: {fileID: 442600533}
-  timertime: 10
 --- !u!114 &442600533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1502,7 +1517,7 @@ GameObject:
   - component: {fileID: 1453700895}
   - component: {fileID: 1453700897}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: ruoka
   m_TagString: food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
