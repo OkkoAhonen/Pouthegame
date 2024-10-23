@@ -4,19 +4,27 @@ using UnityEngine;
 
 public class PouFood : MonoBehaviour
 {
-    gameManager manager;
+     [SerializeField] gameManager gamemanager;
+
+
     // Tämä metodi kutsutaan, kun jokin objekti osuu tämän objektin Collider-alueeseen
+    private void Start()
+    {
+        
+
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log(other.name);
         // Tarkistetaan, onko törmänneellä objektilla tagina "food"
         if (other.gameObject.CompareTag("food"))
         {
-            manager.progress += 50;
+            
             // Poistetaan "food"-objekti
             Destroy(other.gameObject);
 
             Debug.Log("Koskee");
+            gamemanager.progress += 50;
         }
     }
 }
