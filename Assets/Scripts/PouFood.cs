@@ -5,7 +5,7 @@ using UnityEngine;
 public class PouFood : MonoBehaviour
 {
     // Tämä metodi kutsutaan, kun jokin objekti osuu tämän objektin Collider-alueeseen
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         Debug.Log(other.name);
         // Tarkistetaan, onko törmänneellä objektilla tagina "food"
