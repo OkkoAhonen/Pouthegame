@@ -18,4 +18,4 @@ public class Draggable : MonoBehaviour
         transform.position = new Vector3(mousePosition.x + offset.x, mousePosition.y + offset.y, transform.position.z);
     }
 }
-
+// koodi teknisesti loppyy tähän

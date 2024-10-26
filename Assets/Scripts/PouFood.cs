@@ -8,7 +8,7 @@ public class PouFood : MonoBehaviour
 
 
     // Tämä metodi kutsutaan, kun jokin objekti osuu tämän objektin Collider-alueeseen
-    private void Start()
+    private void Start() //En ole varma miksi tämä on???
     {
         
 
