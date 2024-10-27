@@ -56,3 +56,5 @@ public class gameManager : MonoBehaviour
     }
 }
 //lis‰‰ t‰nne raha systeemi
+
+//muut systeemit kuntoon
